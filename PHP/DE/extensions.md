@@ -7,7 +7,7 @@
 ```shell
 php --ini
 ```
-<img src="https://ws1.sinaimg.cn/large/006y8mN6ly1g6e1lqxjkuj310k06674w.jpg">
+<img referrer="no-referrer|origin|unsafe-url" src="https://ws1.sinaimg.cn/large/006y8mN6ly1g6e1lqxjkuj310k06674w.jpg">
 
 ### Style 2 命令行打印 phpinfo 查找 关键字 php.ini
 
