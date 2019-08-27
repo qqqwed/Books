@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/modernphp/scanner" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/guzzlehttp/ringphp" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/guzzlehttp/streams" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/composer" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/ModernPHP/vendor/ralouphie/getallheaders" />
+    </include_path>
+  </component>
+</project>
