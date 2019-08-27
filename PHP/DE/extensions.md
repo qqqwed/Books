@@ -8,7 +8,7 @@
 php --ini
 ```
 
-![image-20190827102930936](https://ws3.sinaimg.cn/large/006y8mN6ly1g6e12ihk5tj310k066dgo.jpg)
+![image-20190827102930936](https://ws1.sinaimg.cn/large/006y8mN6ly1g6e1lqxjkuj310k06674w.jpg)
 
 ### Style 2 命令行打印 phpinfo 查找 关键字 php.ini
 
