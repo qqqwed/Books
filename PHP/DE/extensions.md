@@ -1,5 +1,4 @@
 # 安装扩展
-<meta name="referrer" content="no-referrer"/>
 
 ## 查找 php.ini 的位置
 
@@ -8,7 +7,7 @@
 ```shell
 php --ini
 ```
-<img referrer="no-referrer|origin|unsafe-url" src="https://ws1.sinaimg.cn/large/006y8mN6ly1g6e1lqxjkuj310k06674w.jpg">
+<img referrerpolicy="no-referrer" src="https://ws1.sinaimg.cn/large/006y8mN6ly1g6e1lqxjkuj310k06674w.jpg">
 
 ### Style 2 命令行打印 phpinfo 查找 关键字 php.ini
 
