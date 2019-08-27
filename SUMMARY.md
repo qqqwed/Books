@@ -3,6 +3,7 @@
 ## Part I - PHP
 * [Introduction](README.md)
 * [开发环境](PHP/DE/README.md)
+    * [安装扩展](PHP/DE/extensions.md)
 
 ## Part II - 前端开发笔记
 * [前端开发笔记](WEB/README.md)
