@@ -1,4 +1,5 @@
 # 安装扩展
+<meta name="referrer" content="no-referrer"/>
 
 ## 查找 php.ini 的位置
 
