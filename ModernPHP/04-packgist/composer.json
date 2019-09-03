@@ -1,0 +1,5 @@
+{
+    "require": {
+        "modernphp/scanner": "^1.0"
+    }
+}

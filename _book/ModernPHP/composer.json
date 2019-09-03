@@ -1,0 +1,7 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "5.0.0",
+        "league/csv": "^8.2",
+        "modernphp/scanner": "^1.0"
+    }
+}
