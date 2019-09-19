@@ -35,7 +35,7 @@ php -i | grep "Loaded Configuration File"
     phpinfo();
 ```
 
-![](pic_store/006y8mN6ly1g6dzvtu3wmj31fq05kq47.jpg)
+![006y8mN6ly1g6dzvtu3wmj31fq05kq47](pic_store/006y8mN6ly1g6dzvtu3wmj31fq05kq47.jpg)
 
 
 
