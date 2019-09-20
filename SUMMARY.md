@@ -16,5 +16,6 @@
 
 ## Part IV - 解决方案
 
-- [单点登录（Single Sign On）解决方案](PHP/sso.md)
+- [单点登录（Single Sign On）解决方案](solution/sso.md)
+- [前端常见跨域解决方案 (全)](solution/cf.md)
 

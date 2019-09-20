@@ -287,10 +287,8 @@ d.） 上面三个场景的跨域数据传递
 </script>
 ```
 
-更多跨域问题参考 [前端常见跨域解决方案（全）](https://segmentfault.com/a/1190000011145364)
+更多跨域问题参考 [前端常见跨域解决方案（全）](solution/cf.md)
 
 # 参考链接
 
 [JSON Web Token 入门教程](http://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
-
- [前端常见跨域解决方案（全）](https://segmentfault.com/a/1190000011145364)
