@@ -12,7 +12,9 @@
     * [Nodejs](WEB/Node/nodejs.md)
         * [开发环境](WEB/Node/de.md)
 
-## Part III - 架构architecture
+## Part III - 数据结构与算法
+
+-  [复杂度速查表](数据结构算法/复杂度.md)
 
 ## Part IV - 解决方案
 
