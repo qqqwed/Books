@@ -100,9 +100,22 @@ echo '<?php phpinfo();?>' | php 2>&1 | grep -i error_log
     # php 版本 > 7
      wget http://pear.php.net/go-pear.phar
      php go-pear.phar
-     
+    
+    ################################################
     # php 版本 < 7
     yum install php-pear
+    
+    ################################################
+    # Mac 安装 pecl
+    # 1. 下载pear
+    curl -O http://pear.php.net/go-pear.phar
+    # 2. 安装pear
+    sudo php -d detect_unicode=0 go-pear.phar
+    # 3. 执行以上命令后会进行安装过程，会有一些配置选项
+    输入1，回车，配置pear路径为：/usr/local/pear
+    输入4，回车，配置命令路径为：/usr/local/bin
+    # 4.回车两次，其他让其默认，安装完成
+    # 5. 可以通过命令检查pear安装是否成功`pear version`
     ```
 
 2. **配置 pear 的 php_ini**
