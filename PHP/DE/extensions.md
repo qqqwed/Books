@@ -108,7 +108,7 @@ echo '<?php phpinfo();?>' | php 2>&1 | grep -i error_log
     ################################################
     # Mac 安装 pecl
     # 1. 下载pear
-    curl -O http://pear.php.net/go-pear.phar
+    sudo curl -O http://pear.php.net/go-pear.phar
     # 2. 安装pear
     sudo php -d detect_unicode=0 go-pear.phar
     # 3. 执行以上命令后会进行安装过程，会有一些配置选项
