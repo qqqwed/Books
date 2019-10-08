@@ -9,10 +9,11 @@
 * [前端开发笔记](WEB/README.md)
     * [Nodejs](WEB/Node/nodejs.md)
         * [开发环境](WEB/Node/de.md)
+    * [Echarts](WEB/echarts.md)
 
 ## Part III - 数据结构与算法
 
--  [复杂度速查表](数据结构算法/复杂度.md)
+-  [复杂度速查表](数据结构算法/复杂度速查表.md)
 - 剑指 offer 题解
     - [数组中重复的数字](数据结构算法/剑指 offer/数组中重复的数字.md)
 
