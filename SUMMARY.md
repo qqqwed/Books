@@ -4,6 +4,7 @@
 
 * [开发环境](PHP/DE/README.md)
     * [安装扩展](PHP/DE/extensions.md)
+* [位操作](PHP/位操作.md)
 
 ## Part II - 前端开发笔记
 * [前端开发笔记](WEB/README.md)
