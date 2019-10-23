@@ -4,7 +4,8 @@
 
 * [开发环境](PHP/DE/README.md)
     * [安装扩展](PHP/DE/extensions.md)
-* [位操作](PHP/位操作.md)
+* [原码反码补码](PHP/原码反码补码.md)
+* [位运算](PHP/位运算.md)
 
 ## Part II - 前端开发笔记
 * [前端开发笔记](WEB/README.md)
