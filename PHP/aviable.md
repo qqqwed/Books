@@ -114,15 +114,19 @@ $name = "new string";
 
 ### 变量名和变量容器关联
 
-而变量 **name** 是如何与变量容器关联起来的呢？其实也是使用了 PHP 的一个内部机制，即 <span style="color:#EC5D57;font-weight:bold;">哈希表</span>。每个变量的**变量名** 和指向 zval 结构的 **指针** 被 **存储** 在 <span style="color:#EC5D57;font-weight:bold;">哈希表</span> 内，以此实现了变量名到变量容器的映射。
+而变量 **name** 是如何与变量容器关联起来的呢？其实也是使用了 PHP 的一个内部机制，即 <span style="color:#fe7821;font-weight:bold;">哈希表</span>。每个变量的**<font style="color:red">变量名</font>** 和指向 zval 结构的 **<font style="color:red">指针</font>** 被 **存储** 在 <span style="color:#fe7821;font-weight:bold;">哈希表</span> 内，以此实现了变量名到变量容器的映射。
+
+以变量被赋值为常量为例
+
+当变量被重新引用后，指向 zval 结构体的指针也就发生了变化，而之前指向的 zval 结构体由于没有被引用了，所以 **refcount** 清零。
 
 # 变量作用域
 
-上面我们提到了「变量名」和「变量容器」映射的概念。对于 PHP 来说，变量有 **全局变量** 和 **局部变量** 之分；那么，他们都是存储到一个 <span style="color:#EC5D57;font-weight:bold;">哈希表</span> 内了么？
+上面我们提到了「变量名」和「变量容器」映射的概念。对于 PHP 来说，变量有 **全局变量** 和 **局部变量** 之分；那么，他们都是存储到一个 <span style="color:#fe7821;font-weight:bold;">哈希表</span> 内了么？
 
 其实不是的，变量存储也有作用域的概念。
 
-**全局变量** 被存储到了 <span style="color:#EC5D57;font-weight:bold;">全局符号表</span> 内，而 **局部变量** 也就是指函数或对象内的变量，则被存储到了 <span style="color:#EC5D57;font-weight:bold;">活动符号表</span> 内（每个函数或对象都单独维护了自己的活动符号表。活动符号表的生命周期，从函数或对象被调用时开始，到调用完成时结束）
+**全局变量** 被存储到了 <span style="color:#fe7821;font-weight:bold;">全局符号表</span> 内，而 **局部变量** 也就是指函数或对象内的变量，则被存储到了 <span style="color:#fe7821;font-weight:bold;">活动符号表</span> 内（每个函数或对象都单独维护了自己的活动符号表。活动符号表的生命周期，从函数或对象被调用时开始，到调用完成时结束）
 
 # 变量销毁
 
@@ -130,7 +134,7 @@ $name = "new string";
  1、手动销毁
  2、垃圾回收机制销毁（引用计数清0销毁和根缓冲区满后销毁）
 
-我们这次主要讲一下手动销毁，即 **unset**，每次销毁时都会将符号表内的 **变量名** 和对应的 **zval 结构** 进行销毁，并将对应的内存归还到 PHP 所维护的内存池内（按内存大小划分到对应内存列表中）
+我们这次主要讲一下手动销毁，即 **unset**，每次销毁时都会将符号表内的 **变量名** 和它指向的 **变量容器 zval ** 进行销毁，并将对应的内存归还到 PHP 所维护的内存池内（按内存大小划分到对应内存列表中）
 
 
 而对于垃圾回收机制的销毁，请看下篇文章[php底层原理之垃圾回收机制](https://juejin.im/post/5c7b785af265da2d8c7de5f1)
